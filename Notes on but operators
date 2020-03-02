@@ -1,0 +1,36 @@
+Exclusive or (XOR):
+
+       10101011 
+    ^  11011110
+    ___________
+       01110101
+   
+    Returns 1 if the two bits are different.
+
+Shifts:
+
+    bit >> x 
+    Division of bit by (2^x)
+
+    bit << x
+    Multiplication of bit with (2^x)
+
+    Bit shifts can be used on a single bit.
+
+    
+Switch and toggle:
+
+    bit |= x
+    Switches on the bit at position (2^x)
+
+    bit ^= x
+    Toggles the bit at position (2^x)
+
+    Difference between "Switching on" and toggling:
+
+    Switching on means turning it to 1. If already 1 it stays 1.
+
+    Toggling it means switching it to the opposite.
+
+    if      0   |  if      1
+    toggle  1   |  toggle  0

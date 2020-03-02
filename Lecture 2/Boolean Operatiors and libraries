@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdbool.h> /* Standard boolean library for c */
+
+bool b = true
+/* method of defining the variable */
+
+Boolean operators in c:
+
+&&  AND
+||  OR
+!   NOT
+
+operators without using the libraty:
+
+a = 0 /* This is taken as flase */
+b = 69 /* This is taken as true */
+using any of the above operators solves the equation as a boolean operation
+
+a = !a /* a is now set as true */
+logical operators will replace the values as either 0 or 1.
+

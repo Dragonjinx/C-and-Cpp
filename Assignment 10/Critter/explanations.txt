@@ -1,0 +1,47 @@
+/*
+CH-230-A
+a10 p1.c
+Abhilekh Pandey
+ab.pandey@jacobs-universi
+*/
+
+Commenting 'using namespace std' in testcritter.cpp:
+
+Syntax errors:
+In main:
+
+'string' was not declard in this scope.
+>>  Error because string is an object in std. We need to write it as std::string
+    so that the compiler knows where to search for it.
+
+'cout' was not declared in this scope.
+>>  Error because cout is a function in std. We need to write it as std::cout so
+    that the compiler knows where to search for it.
+
+'endl' was not declared in this scope.
+>>  Error because endl is a function in std. We need to write it as std::endl so
+    that the compiler knows where to search for it.
+
+'name' was not declared in this scope.
+>>  Error because the delcaration of the string 'name' failed due to the previos
+    namespace syntax error.
+
+
+
+Commenting 'Critter::' in Critter.cpp
+
+Syntax errors:
+In Critter.cpp:
+
+'name' was not declard in this scope
+>>  Error because we are trying to work with a class data in a method without
+    specifying which class we are working with. Solution to the error is to
+    specify the class as the function's namespace in the function declaration.
+
+'hunger' was not declared in this scope
+>>  Error because we are trying to work with a class data in a method without
+    specifying which class we are working with. Solution to the error is to
+    specify the class as the function's namespace in the function declaration.
+
+Final Modifications:
+Removed 'using namespace std' entirely. Used std:: when calling functions.

@@ -1,0 +1,26 @@
+struct studentinfo
+{
+    char Name[100];
+    int age;
+    float height;
+};
+
+struct studentinfo Nayan;
+Nayan.Name = "Nayan Man Singh Pradhan";
+Nayan.age = 18;
+Nayan.height = 6.9;
+
+struct studentinfo Vlada;
+Vlada.Name = "Vlada Petrusinko";
+Vlada.age = 17;
+Vlada.height = 4.20
+
+struct student Julian;
+Julian.Name = "Julian Chavaro Padilla"
+Julian.age = 18;
+Julian.height = 6.9
+
+variable_type *p = (variable_type*) malloc(sizeof(variable_type));
+
+struct studentinfo row;
+row.Name = Julian.Name;

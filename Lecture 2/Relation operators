@@ -1,0 +1,9 @@
+Relational operators are mathematical operators
+The output of relational operators are boolean values.
+Thus they can be mixed with boolean operators for more complex expressions.
+
+Example:
+
+(6 >= a ) && (9 <= b)
+
+Relation operators can be their own boolean operators.

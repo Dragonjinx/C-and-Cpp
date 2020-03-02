@@ -1,0 +1,25 @@
+In Header File:
+
+Define variables
+
+Define dunction protypes.
+
+In Main file:
+
+#include header;
+
+int main()
+{
+    function;
+}
+
+
+
+In function body;
+
+include header
+
+function
+{
+    something;
+}

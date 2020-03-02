@@ -1,0 +1,18 @@
+The complex number 1 is: 
+3+4i
+
+The complex number 2 is: 
+2+5i
+
+The addition of 1 and 2 is:
+5+9i
+
+The substraction of 2 from 1 is:
+1-1i
+
+The conjugate of 1 is:
+3-4i
+
+The dot product of 1 and 2 is:
+-14+23i
+
